@@ -11,6 +11,8 @@ end=datetime(2020,10,23)
 
 st.title("Stock Movement Tracker")
 
+st.text_input("Enter the ticker here","RIL")
+
 #st.set_page_config(layout="wide")
 
 #Getting the stock details from the users
