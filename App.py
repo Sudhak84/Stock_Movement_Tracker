@@ -9,6 +9,8 @@ from datetime import datetime
 start=datetime(2015,1,1)
 end=datetime(2020,10,23)
 
+st.title("Stock Movement Tracker")
+
 st.set_page_config(layout="wide")
 
 #Getting the stock details from the users
