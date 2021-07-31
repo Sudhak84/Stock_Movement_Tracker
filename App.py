@@ -6,7 +6,7 @@ from nsepy import get_history
 from datetime import datetime
 
 # Getting the dates from the user
-start=datetime(2021,1,1)
+start=datetime(2021,7,20)
 end=datetime(2021,7,30)
 
 st.title("Stock Movement Tracker")
