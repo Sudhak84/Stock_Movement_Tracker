@@ -46,3 +46,4 @@ for index,rows in data.iterrows():
 data['Change%']=tmp_change
 data['Category']=tmp_category
 #data.to_csv(str(stock_name[0])+'.csv')
+streamlit.dataframe(data=data, width=None, height=None)
